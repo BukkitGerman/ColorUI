@@ -1,0 +1,25 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+
+.item {
+	text-align: center;
+	height: 25vh;
+	width: 19.86%;
+
+	border: 1px solid #fff;
+}
+
+.item:hover {
+	cursor: pointer;
+}
